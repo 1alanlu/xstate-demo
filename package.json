@@ -16,13 +16,15 @@
   "dependencies": {
     "@vueuse/core": "^8.1.1",
     "@vueuse/head": "^0.7.5",
+    "@xstate/vue": "^1.0.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.12",
     "prism-theme-vars": "^0.2.2",
     "vue": "^3.2.31",
     "vue-demi": "^0.12.4",
     "vue-i18n": "^9.1.9",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "xstate": "^4.30.6"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.18.8",
