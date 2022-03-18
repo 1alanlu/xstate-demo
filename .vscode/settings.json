@@ -3,7 +3,7 @@
     "*.css": "postcss"
   },
 
-  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.sourceLanguage": "zh-CN",
   "i18n-ally.keystyle": "nested",
   "i18n-ally.localesPaths": "locales",
   "i18n-ally.sortKeys": true,
@@ -23,5 +23,8 @@
     "~/": "${folder}/src/"
   },
 
-  "cSpell.words": ["Vitesse"]
+  "cSpell.words": [
+    "Vitesse",
+    "xstate"
+  ]
 }

@@ -28,6 +28,10 @@ const toggleLocales = () => {
       <div i-carbon-dicom-overlay />
     </router-link>
 
+    <router-link class="icon-btn mx-2" to="/machines" title="xstate">
+      <div i-carbon:machine-learning />
+    </router-link>
+
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
       <div i-carbon-logo-github />
     </a>

@@ -38,4 +38,24 @@ export default defineConfig({
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   safelist: 'prose prose-sm m-auto text-left'.split(' '),
+  rules: [
+    [/^z-(\d+)$/, ([, d]) => ({ 'z-index': d })],
+    [
+      'p-c',
+      {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: `translate(-50%, -50%)`,
+      },
+    ],
+    [
+      'f-c',
+      {
+        display: 'flex',
+        'justify-content': 'center',
+        'align-items': 'center',
+      },
+    ],
+  ],
 });
